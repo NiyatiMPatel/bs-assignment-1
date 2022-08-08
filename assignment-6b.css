@@ -112,6 +112,10 @@ ul {
   border-radius: 0.5rem !important;
 }
 
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 svg:not(:host).svg-inline--fa,
 svg:not(:root).svg-inline--fa {
   overflow: visible;
