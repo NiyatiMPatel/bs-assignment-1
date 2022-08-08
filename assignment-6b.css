@@ -16,6 +16,10 @@ h6 {
   font-family: "Montserrat", sans-serif;
 }
 
+ul {
+  border-bottom: 0 !important;
+}
+
 .rounded {
   border-radius: 0.5rem !important;
 }
@@ -87,14 +91,17 @@ h6 {
   color: #1abc9c !important;
 }
 
-.navbar-nav > li.nav-item > a.nav-link.active:active,
-.navbar-nav > li.nav-item > a.nav-link.active:focus,
-.navbar-nav > li.nav-item > a.nav-link.active:hover {
+.navbar-nav li.nav-item a.nav-link.active:active,
+.navbar-nav li.nav-item a.nav-link.active:focus,
+.navbar-nav li.nav-item a.nav-link.active:hover,
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
   color: #fff !important;
-  background: #1abc9c;
+  background: #1abc9c !important;
+  border-color: #1abc9c !important;
 }
 
-.navbar-toggler {
+.active .navbar-toggler {
   font-size: 80%;
   padding: 0.9rem;
   background: #1abc9c !important;
@@ -161,18 +168,18 @@ svg:not(:root).svg-inline--fa {
   transition: all 0.3s ease-in-out;
 }
 
+.fa-plus {
+  color: transparent;
+  font-size: 5rem;
+  transition: all 0.3s ease-in-out;
+}
+
 .portfolio-inner:hover .modal-wrapper {
   background: rgba(26, 188, 156, 0.9);
 }
 
 .portfolio-inner:hover .fa-plus {
   color: #fff;
-}
-
-.fa-plus {
-  color: transparent;
-  font-size: 5rem;
-  transition: all 0.3s ease-in-out;
 }
 
 .btn-check:focus + .btn,
