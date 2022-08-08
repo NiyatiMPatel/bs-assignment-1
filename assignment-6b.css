@@ -268,6 +268,11 @@ svg:not(:root).svg-inline--fa {
   border-color: #1abc9c;
 }
 
+.form-control:focus {
+  border-color: #6c757d !important;
+  box-shadow: none !important;
+}
+
 /* <!-- CONTACT END --> */
 
 /* <!-- FOOTER START --> */
