@@ -101,7 +101,8 @@ ul {
   border-color: #1abc9c !important;
 }
 
-.active .navbar-toggler {
+.active .navbar-toggler,
+.navbar-toggler {
   font-size: 80%;
   padding: 0.9rem;
   background: #1abc9c !important;
