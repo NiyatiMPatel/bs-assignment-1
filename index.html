@@ -1,905 +1,615 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/22503eb10e.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./assignment-6b.css" />
-    <title>Bootstrap Assignment6B</title>
-  </head>
-  <body data-bs-spy="scroll" data-bs-target="#nav-test">
-    <!-- HEADER START -->
 
-    <nav
-      class="navbar navbar-expand-lg bg-secondary fixed-top py-lg-4 py-3 navbg"
-      id="nav-test"
-    >
-      <div class="container">
-        <a class="navbar-brand text-light fw-bold" href="#">START BOOTSTRAP</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/0d8677739b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assignment-6b.css" />
+  <title>Bootstrap Assignment6B</title>
+</head>
 
-        <button
-          class="navbar-toggler bg-primary text-white rounded collapsed"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          MENU
-          <svg
-            class="svg-inline--fa fa-bars"
-            aria-hidden="true"
-            focusable="false"
-            data-prefix="fas"
-            data-icon="bars"
-            role="img"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 512"
-            data-fa-i2svg=""
-          >
-            <path
-              fill="currentColor"
-              d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"
-            ></path>
-          </svg>
-        </button>
+<body data-bs-spy="scroll" data-bs-target="#nav-test">
+  <!-- HEADER START -->
 
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarResponsive"
-        >
-          <ul class="navbar-nav nav-tabs ms-auto">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a
-                class="nav-link text-light fw-bold py-3 px-0 px-lg-3 rounded"
-                aria-current="page"
-                href="#portfolio"
-                >PORTFOLIO</a
-              >
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a
-                class="nav-link text-light fw-bold py-3 px-0 px-lg-3 rounded"
-                href="#about"
-                >ABOUT</a
-              >
-            </li>
+  <nav class="navbar navbar-expand-lg bg-secondary fixed-top py-lg-4 py-3 navbg" id="nav-test">
+    <div class="container">
+      <a class="navbar-brand text-light fw-bold" href="#">START BOOTSTRAP</a>
 
-            <li class="nav-item mx-0 mx-lg-1">
-              <a
-                class="nav-link text-light fw-bold py-3 px-0 px-lg-3 rounded"
-                href="#contact"
-                >CONTACT</a
-              >
-            </li>
-          </ul>
+      <button class="navbar-toggler bg-primary text-white rounded collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        MENU
+        <svg class="svg-inline--fa fa-bars" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+          role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+          <path fill="currentColor"
+            d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z">
+          </path>
+        </svg>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
+        <ul class="navbar-nav nav-tabs ms-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link text-light fw-bold py-3 px-0 px-lg-3 rounded" aria-current="page"
+              href="#portfolio">PORTFOLIO</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link text-light fw-bold py-3 px-0 px-lg-3 rounded" href="#about">ABOUT</a>
+          </li>
+
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link text-light fw-bold py-3 px-0 px-lg-3 rounded" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER END -->
+
+  <!-- BANNER START -->
+  <section class="banner">
+    <div class="container">
+      <div class="banner-wrapper d-flex justify-content-center align-items-center">
+        <div class="banner-content d-flex flex-column justify-content-center align-items-center text-light w-100">
+          <div class="user-avatar">
+            <img class="avatar mb-5" src="./images/avataaars.png" alt="..." />
+          </div>
+          <h1 class="fw-bold text-center m-0">START BOOTSTRAP</h1>
+          <div class="banner-divider divider d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-star banner-icon icon"></i>
+          </div>
+          <p class="font-weight-light mb-0">
+            Graphic Artist - Web Designer - Illustrator
+          </p>
         </div>
       </div>
-    </nav>
+    </div>
+  </section>
+  <!-- BANNER END -->
 
-    <!-- HEADER END -->
+  <!-- PORTFOLIO START -->
+  <section class="portfolio-section" id="portfolio">
+    <div class="container">
+      <div class="portfolio-title-wrapper d-flex justify-content-center align-items-center">
+        <div class="portfolio-title-content d-flex flex-column justify-content-center align-items-center w-100">
+          <h2 class="fw-bold">PORTFOLIO</h2>
+          <div class="portfolio-divider divider d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-star portfolio-icon icon"></i>
+          </div>
+        </div>
+      </div>
 
-    <!-- BANNER START -->
-    <section class="banner">
-      <div class="container">
-        <div
-          class="banner-wrapper d-flex justify-content-center align-items-center"
-        >
-          <div
-            class="banner-content d-flex flex-column justify-content-center align-items-center text-light w-100"
-          >
-            <div class="user-avatar">
-              <img class="avatar mb-5" src="./images/avataaars.png" alt="..." />
+      <div class="portfolio-list-wrapper">
+        <div class="row row-cols-lg-3 row-cols-sm-2 row-cols-1">
+          <div class="col mb-5">
+            <div class="portfolio-inner rounded">
+              <img src="./images/cabin.png" alt="" class="w-100 rounded" />
+
+              <!-- MODAL START -->
+
+              <div class="modal-wrapper">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn bg-transparent" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal-1">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body pb-0">
+                        <div class="modal-body-wrapper d-flex flex-column justify-content-center align-items-center">
+                          <div class="col-lg-8">
+                            <div
+                              class="modal-body-title-content d-flex flex-column justify-content-center align-items-center">
+                              <h2 class="fw-bold">LOG CABIN</h2>
+                              <div class="portfolio-divider divider d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-star portfolio-icon icon"></i>
+                              </div>
+                            </div>
+
+                            <div class="modal-body-image rounded mb-5">
+                              <img src="./images/cabin.png" alt="" class="w-100 rounded" />
+                            </div>
+                            <p class="text-center">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Mollitia neque assumenda ipsam
+                              nihil, molestias magnam, recusandae quos quis
+                              inventore quisquam velit asperiores, vitae?
+                              Reprehenderit soluta, eos quod consequuntur
+                              itaque. Nam.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Modal Footer -->
+                      <div class="modal-footer pb-5">
+                        <button type="button" class="btn mx-auto text-light" data-bs-dismiss="modal">
+                          <i class="fa-solid fa-xmark"></i> Close Window
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- MODAL END  -->
             </div>
-            <h1 class="fw-bold text-center m-0">START BOOTSTRAP</h1>
-            <div
-              class="banner-divider divider d-flex justify-content-center align-items-center"
-            >
-              <i class="fa-solid fa-star banner-icon icon"></i>
+          </div>
+          <div class="col mb-5">
+            <div class="portfolio-inner rounded">
+              <img src="./images/cake.png" alt="" class="w-100 rounded" />
+
+              <!-- MODAL START -->
+
+              <div class="modal-wrapper">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn bg-transparent" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal-2">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body pb-0">
+                        <div class="modal-body-wrapper d-flex flex-column justify-content-center align-items-center">
+                          <div class="col-lg-8">
+                            <div
+                              class="modal-body-title-content d-flex flex-column justify-content-center align-items-center">
+                              <h2 class="fw-bold">TASTY CAKE</h2>
+                              <div class="portfolio-divider divider d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-star portfolio-icon icon"></i>
+                              </div>
+                            </div>
+
+                            <div class="modal-body-image rounded mb-5">
+                              <img src="./images/cake.png" alt="" class="w-100 rounded" />
+                            </div>
+                            <p class="text-center">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Mollitia neque assumenda ipsam
+                              nihil, molestias magnam, recusandae quos quis
+                              inventore quisquam velit asperiores, vitae?
+                              Reprehenderit soluta, eos quod consequuntur
+                              itaque. Nam.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Modal Footer -->
+                      <div class="modal-footer pb-5">
+                        <button type="button" class="btn mx-auto text-light" data-bs-dismiss="modal">
+                          <i class="fa-solid fa-xmark"></i> Close Window
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- MODAL END  -->
             </div>
-            <p class="font-weight-light mb-0">
-              Graphic Artist - Web Designer - Illustrator
+          </div>
+          <div class="col mb-5">
+            <div class="portfolio-inner rounded">
+              <img src="./images/circus.png" alt="" class="w-100 rounded" />
+
+              <!-- MODAL START -->
+
+              <div class="modal-wrapper">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn bg-transparent" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal-3">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal-3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body pb-0">
+                        <div class="modal-body-wrapper d-flex flex-column justify-content-center align-items-center">
+                          <div class="col-lg-8">
+                            <div
+                              class="modal-body-title-content d-flex flex-column justify-content-center align-items-center">
+                              <h2 class="fw-bold">CIRCUS TENT</h2>
+                              <div class="portfolio-divider divider d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-star portfolio-icon icon"></i>
+                              </div>
+                            </div>
+
+                            <div class="modal-body-image rounded mb-5">
+                              <img src="./images/circus.png" alt="" class="w-100 rounded" />
+                            </div>
+                            <p class="text-center">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Mollitia neque assumenda ipsam
+                              nihil, molestias magnam, recusandae quos quis
+                              inventore quisquam velit asperiores, vitae?
+                              Reprehenderit soluta, eos quod consequuntur
+                              itaque. Nam.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Modal Footer -->
+                      <div class="modal-footer pb-5">
+                        <button type="button" class="btn mx-auto text-light" data-bs-dismiss="modal">
+                          <i class="fa-solid fa-xmark"></i> Close Window
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- MODAL END  -->
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="portfolio-inner rounded">
+              <img src="./images/game.png" alt="" class="w-100 rounded" />
+
+              <!-- MODAL START -->
+
+              <div class="modal-wrapper">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn bg-transparent" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal-4">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal-4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body pb-0">
+                        <div class="modal-body-wrapper d-flex flex-column justify-content-center align-items-center">
+                          <div class="col-lg-8">
+                            <div
+                              class="modal-body-title-content d-flex flex-column justify-content-center align-items-center">
+                              <h2 class="fw-bold">CONTROLLER</h2>
+                              <div class="portfolio-divider divider d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-star portfolio-icon icon"></i>
+                              </div>
+                            </div>
+
+                            <div class="modal-body-image rounded mb-5">
+                              <img src="./images/game.png" alt="" class="w-100 rounded" />
+                            </div>
+                            <p class="text-center">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Mollitia neque assumenda ipsam
+                              nihil, molestias magnam, recusandae quos quis
+                              inventore quisquam velit asperiores, vitae?
+                              Reprehenderit soluta, eos quod consequuntur
+                              itaque. Nam.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Modal Footer -->
+                      <div class="modal-footer pb-5">
+                        <button type="button" class="btn mx-auto text-light" data-bs-dismiss="modal">
+                          <i class="fa-solid fa-xmark"></i> Close Window
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- MODAL END  -->
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="portfolio-inner rounded">
+              <img src="./images/safe.png" alt="" class="w-100 rounded" />
+
+              <!-- MODAL START -->
+
+              <div class="modal-wrapper">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn bg-transparent" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal-5">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal-5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body pb-0">
+                        <div class="modal-body-wrapper d-flex flex-column justify-content-center align-items-center">
+                          <div class="col-lg-8">
+                            <div
+                              class="modal-body-title-content d-flex flex-column justify-content-center align-items-center">
+                              <h2 class="fw-bold">LOCKED SAFE</h2>
+                              <div class="portfolio-divider divider d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-star portfolio-icon icon"></i>
+                              </div>
+                            </div>
+
+                            <div class="modal-body-image rounded mb-5">
+                              <img src="./images/safe.png" alt="" class="w-100 rounded" />
+                            </div>
+                            <p class="text-center">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Mollitia neque assumenda ipsam
+                              nihil, molestias magnam, recusandae quos quis
+                              inventore quisquam velit asperiores, vitae?
+                              Reprehenderit soluta, eos quod consequuntur
+                              itaque. Nam.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Modal Footer -->
+                      <div class="modal-footer pb-5">
+                        <button type="button" class="btn mx-auto text-light" data-bs-dismiss="modal">
+                          <i class="fa-solid fa-xmark"></i> Close Window
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- MODAL END  -->
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="portfolio-inner rounded">
+              <img src="./images/submarine.png" alt="" class="w-100 rounded" />
+
+              <!-- MODAL START -->
+
+              <div class="modal-wrapper">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn bg-transparent" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal-6">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal-6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body pb-0">
+                        <div class="modal-body-wrapper d-flex flex-column justify-content-center align-items-center">
+                          <div class="col-lg-8">
+                            <div
+                              class="modal-body-title-content d-flex flex-column justify-content-center align-items-center">
+                              <h2 class="fw-bold">SUBMARINE</h2>
+                              <div class="portfolio-divider divider d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-star portfolio-icon icon"></i>
+                              </div>
+                            </div>
+
+                            <div class="modal-body-image rounded mb-5">
+                              <img src="./images/submarine.png" alt="" class="w-100 rounded" />
+                            </div>
+                            <p class="text-center">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Mollitia neque assumenda ipsam
+                              nihil, molestias magnam, recusandae quos quis
+                              inventore quisquam velit asperiores, vitae?
+                              Reprehenderit soluta, eos quod consequuntur
+                              itaque. Nam.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Modal Footer -->
+                      <div class="modal-footer pb-5">
+                        <button type="button" class="btn mx-auto text-light" data-bs-dismiss="modal">
+                          <i class="fa-solid fa-xmark"></i> Close Window
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- MODAL END  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- PORTFOLIO END -->
+
+  <!-- ABOUT START -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-wrapper d-flex flex-column justify-content-center align-items-center">
+        <div class="col-lg-8">
+          <div class="about-title-content d-flex flex-column justify-content-center align-items-center w-100">
+            <h2 class="fw-bold text-light">ABOUT</h2>
+            <div class="about-divider divider d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-star about-icon icon text-light"></i>
+            </div>
+          </div>
+          <div class="row row-cols-md-2 row-cols-1">
+            <div class="col">
+              <div class="about-inner-content">
+                <p class="text-light">
+                  Freelancer is a free bootstrap theme created by Start
+                  Bootstrap. The download includes the complete source files
+                  including HTML, CSS, and JavaScript as well as optional SASS
+                  stylesheets for easy customization.
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="about-inner-content">
+                <p class="text-light">
+                  You can create your own custom avatar for the masthead,
+                  change the icon in the dividers, and add your email address
+                  to the contact form to make it fully functional!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="download-button-wrapper d-flex justify-content-center align-items-center mt-4">
+            <a class="btn btn-xl btn-outline-light rounded" href="https://startbootstrap.com/theme/freelancer/">
+              <svg class="svg-inline--fa fa-download me-2" aria-hidden="true" focusable="false" data-prefix="fas"
+                data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                data-fa-i2svg="">
+                <path fill="currentColor"
+                  d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z">
+                </path>
+              </svg>
+              Free Download!
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ABOUT END -->
+
+  <!-- CONTACT START -->
+
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-wrapper d-flex flex-column justify-content-center align-items-center">
+        <div class="col-lg-8 col-12">
+          <div class="contact-title-content d-flex flex-column justify-content-center align-items-center w-100">
+            <h2 class="fw-bold">CONTACT ME</h2>
+            <div class="contact-divider divider d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-star contact-icon icon"></i>
+            </div>
+
+            <form class="form-wrapper col-12">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="John Smith" />
+                <label for="floatingInput">Full name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="0123456789" />
+                <label for="floatingInput">Phone number</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
+                  style="height: 10rem"></textarea>
+                <label for="floatingTextarea">Message</label>
+              </div>
+
+              <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT END -->
+
+  <!-- FOOTER START -->
+
+  <!-- FOOTER TOP START -->
+  <footer>
+    <div class="container">
+      <div class="row row-cols-lg-3 row-cols-1 text-center">
+        <div class="col mb-5 mb-lg-0">
+          <div class="footer-inner">
+            <h4 class="fw-bold mb-4">LOCATION</h4>
+            <p class="mb-0">2215 John Daniel Drive</p>
+            <p class="mb-0">Clark, MO 65243</p>
+          </div>
+        </div>
+        <div class="col mb-5 mb-lg-0">
+          <div class="footer-inner">
+            <h4 class="fw-bold mb-4">AROUND THE WEB</h4>
+            <ul class="footer-social-list p-0 m-0 text-light d-flex justify-content-center">
+              <li class="border border-2 rounded-circle">
+                <a href="#"><i class="fa-brands fa-facebook-f social-icon"></i></a>
+              </li>
+              <li class="border border-2 rounded-circle">
+                <a href="#"><i class="fa-brands fa-twitter social-icon"></i></a>
+              </li>
+              <li class="border border-2 rounded-circle">
+                <a href="#"><i class="fa-brands fa-linkedin-in social-icon"></i></a>
+              </li>
+              <li class="border border-2 rounded-circle">
+                <a href="#"><i class="fa-brands fa-dribbble social-icon"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col mb-5 mb-lg-0">
+          <div class="footer-inner">
+            <h4 class="fw-bold mb-4">ABOUT FREELANCER</h4>
+            <p class="mb-0">
+              Freelance is a free to use, MIT licensed Bootstrap theme created
+              by <a href="http://startbootstrap.com">Start Bootstrap</a>.
             </p>
           </div>
         </div>
       </div>
-    </section>
-    <!-- BANNER END -->
+    </div>
+  </footer>
+  <!-- FOOTER TOP END -->
 
-    <!-- PORTFOLIO START -->
-    <section class="portfolio-section" id="portfolio">
-      <div class="container">
-        <div
-          class="portfolio-title-wrapper d-flex justify-content-center align-items-center"
-        >
-          <div
-            class="portfolio-title-content d-flex flex-column justify-content-center align-items-center w-100"
-          >
-            <h2 class="fw-bold">PORTFOLIO</h2>
-            <div
-              class="portfolio-divider divider d-flex justify-content-center align-items-center"
-            >
-              <i class="fa-solid fa-star portfolio-icon icon"></i>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio-list-wrapper">
-          <div class="row row-cols-lg-3 row-cols-sm-2 row-cols-1">
-            <div class="col mb-5">
-              <div class="portfolio-inner rounded">
-                <img src="./images/cabin.png" alt="" class="w-100 rounded" />
-
-                <!-- MODAL START -->
-
-                <div class="modal-wrapper">
-                  <!-- Button trigger modal -->
-                  <button
-                    type="button"
-                    class="btn bg-transparent"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal-1"
-                  >
-                    <i class="fa-solid fa-plus"></i>
-                  </button>
-
-                  <!-- Modal -->
-                  <div
-                    class="modal fade"
-                    id="exampleModal-1"
-                    tabindex="-1"
-                    aria-labelledby="exampleModalLabel"
-                    aria-hidden="true"
-                  >
-                    <div class="modal-dialog modal-xl">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button
-                            type="button"
-                            class="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                          ></button>
-                        </div>
-                        <div class="modal-body pb-0">
-                          <div
-                            class="modal-body-wrapper d-flex flex-column justify-content-center align-items-center"
-                          >
-                            <div class="col-lg-8">
-                              <div
-                                class="modal-body-title-content d-flex flex-column justify-content-center align-items-center"
-                              >
-                                <h2 class="fw-bold">LOG CABIN</h2>
-                                <div
-                                  class="portfolio-divider divider d-flex justify-content-center align-items-center"
-                                >
-                                  <i
-                                    class="fa-solid fa-star portfolio-icon icon"
-                                  ></i>
-                                </div>
-                              </div>
-
-                              <div class="modal-body-image rounded mb-5">
-                                <img
-                                  src="./images/cabin.png"
-                                  alt=""
-                                  class="w-100 rounded"
-                                />
-                              </div>
-                              <p class="text-center">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Mollitia neque assumenda ipsam
-                                nihil, molestias magnam, recusandae quos quis
-                                inventore quisquam velit asperiores, vitae?
-                                Reprehenderit soluta, eos quod consequuntur
-                                itaque. Nam.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Modal Footer -->
-                        <div class="modal-footer pb-5">
-                          <button
-                            type="button"
-                            class="btn mx-auto text-light"
-                            data-bs-dismiss="modal"
-                          >
-                            <i class="fa-solid fa-xmark"></i> Close Window
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- MODAL END  -->
-              </div>
-            </div>
-            <div class="col mb-5">
-              <div class="portfolio-inner rounded">
-                <img src="./images/cake.png" alt="" class="w-100 rounded" />
-
-                <!-- MODAL START -->
-
-                <div class="modal-wrapper">
-                  <!-- Button trigger modal -->
-                  <button
-                    type="button"
-                    class="btn bg-transparent"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal-2"
-                  >
-                    <i class="fa-solid fa-plus"></i>
-                  </button>
-
-                  <!-- Modal -->
-                  <div
-                    class="modal fade"
-                    id="exampleModal-2"
-                    tabindex="-1"
-                    aria-labelledby="exampleModalLabel"
-                    aria-hidden="true"
-                  >
-                    <div class="modal-dialog modal-xl">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button
-                            type="button"
-                            class="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                          ></button>
-                        </div>
-                        <div class="modal-body pb-0">
-                          <div
-                            class="modal-body-wrapper d-flex flex-column justify-content-center align-items-center"
-                          >
-                            <div class="col-lg-8">
-                              <div
-                                class="modal-body-title-content d-flex flex-column justify-content-center align-items-center"
-                              >
-                                <h2 class="fw-bold">TASTY CAKE</h2>
-                                <div
-                                  class="portfolio-divider divider d-flex justify-content-center align-items-center"
-                                >
-                                  <i
-                                    class="fa-solid fa-star portfolio-icon icon"
-                                  ></i>
-                                </div>
-                              </div>
-
-                              <div class="modal-body-image rounded mb-5">
-                                <img
-                                  src="./images/cake.png"
-                                  alt=""
-                                  class="w-100 rounded"
-                                />
-                              </div>
-                              <p class="text-center">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Mollitia neque assumenda ipsam
-                                nihil, molestias magnam, recusandae quos quis
-                                inventore quisquam velit asperiores, vitae?
-                                Reprehenderit soluta, eos quod consequuntur
-                                itaque. Nam.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Modal Footer -->
-                        <div class="modal-footer pb-5">
-                          <button
-                            type="button"
-                            class="btn mx-auto text-light"
-                            data-bs-dismiss="modal"
-                          >
-                            <i class="fa-solid fa-xmark"></i> Close Window
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- MODAL END  -->
-              </div>
-            </div>
-            <div class="col mb-5">
-              <div class="portfolio-inner rounded">
-                <img src="./images/circus.png" alt="" class="w-100 rounded" />
-
-                <!-- MODAL START -->
-
-                <div class="modal-wrapper">
-                  <!-- Button trigger modal -->
-                  <button
-                    type="button"
-                    class="btn bg-transparent"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal-3"
-                  >
-                    <i class="fa-solid fa-plus"></i>
-                  </button>
-
-                  <!-- Modal -->
-                  <div
-                    class="modal fade"
-                    id="exampleModal-3"
-                    tabindex="-1"
-                    aria-labelledby="exampleModalLabel"
-                    aria-hidden="true"
-                  >
-                    <div class="modal-dialog modal-xl">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button
-                            type="button"
-                            class="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                          ></button>
-                        </div>
-                        <div class="modal-body pb-0">
-                          <div
-                            class="modal-body-wrapper d-flex flex-column justify-content-center align-items-center"
-                          >
-                            <div class="col-lg-8">
-                              <div
-                                class="modal-body-title-content d-flex flex-column justify-content-center align-items-center"
-                              >
-                                <h2 class="fw-bold">CIRCUS TENT</h2>
-                                <div
-                                  class="portfolio-divider divider d-flex justify-content-center align-items-center"
-                                >
-                                  <i
-                                    class="fa-solid fa-star portfolio-icon icon"
-                                  ></i>
-                                </div>
-                              </div>
-
-                              <div class="modal-body-image rounded mb-5">
-                                <img
-                                  src="./images/circus.png"
-                                  alt=""
-                                  class="w-100 rounded"
-                                />
-                              </div>
-                              <p class="text-center">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Mollitia neque assumenda ipsam
-                                nihil, molestias magnam, recusandae quos quis
-                                inventore quisquam velit asperiores, vitae?
-                                Reprehenderit soluta, eos quod consequuntur
-                                itaque. Nam.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Modal Footer -->
-                        <div class="modal-footer pb-5">
-                          <button
-                            type="button"
-                            class="btn mx-auto text-light"
-                            data-bs-dismiss="modal"
-                          >
-                            <i class="fa-solid fa-xmark"></i> Close Window
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- MODAL END  -->
-              </div>
-            </div>
-            <div class="col mb-5">
-              <div class="portfolio-inner rounded">
-                <img src="./images/game.png" alt="" class="w-100 rounded" />
-
-                <!-- MODAL START -->
-
-                <div class="modal-wrapper">
-                  <!-- Button trigger modal -->
-                  <button
-                    type="button"
-                    class="btn bg-transparent"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal-4"
-                  >
-                    <i class="fa-solid fa-plus"></i>
-                  </button>
-
-                  <!-- Modal -->
-                  <div
-                    class="modal fade"
-                    id="exampleModal-4"
-                    tabindex="-1"
-                    aria-labelledby="exampleModalLabel"
-                    aria-hidden="true"
-                  >
-                    <div class="modal-dialog modal-xl">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button
-                            type="button"
-                            class="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                          ></button>
-                        </div>
-                        <div class="modal-body pb-0">
-                          <div
-                            class="modal-body-wrapper d-flex flex-column justify-content-center align-items-center"
-                          >
-                            <div class="col-lg-8">
-                              <div
-                                class="modal-body-title-content d-flex flex-column justify-content-center align-items-center"
-                              >
-                                <h2 class="fw-bold">CONTROLLER</h2>
-                                <div
-                                  class="portfolio-divider divider d-flex justify-content-center align-items-center"
-                                >
-                                  <i
-                                    class="fa-solid fa-star portfolio-icon icon"
-                                  ></i>
-                                </div>
-                              </div>
-
-                              <div class="modal-body-image rounded mb-5">
-                                <img
-                                  src="./images/game.png"
-                                  alt=""
-                                  class="w-100 rounded"
-                                />
-                              </div>
-                              <p class="text-center">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Mollitia neque assumenda ipsam
-                                nihil, molestias magnam, recusandae quos quis
-                                inventore quisquam velit asperiores, vitae?
-                                Reprehenderit soluta, eos quod consequuntur
-                                itaque. Nam.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Modal Footer -->
-                        <div class="modal-footer pb-5">
-                          <button
-                            type="button"
-                            class="btn mx-auto text-light"
-                            data-bs-dismiss="modal"
-                          >
-                            <i class="fa-solid fa-xmark"></i> Close Window
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- MODAL END  -->
-              </div>
-            </div>
-            <div class="col mb-5">
-              <div class="portfolio-inner rounded">
-                <img src="./images/safe.png" alt="" class="w-100 rounded" />
-
-                <!-- MODAL START -->
-
-                <div class="modal-wrapper">
-                  <!-- Button trigger modal -->
-                  <button
-                    type="button"
-                    class="btn bg-transparent"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal-5"
-                  >
-                    <i class="fa-solid fa-plus"></i>
-                  </button>
-
-                  <!-- Modal -->
-                  <div
-                    class="modal fade"
-                    id="exampleModal-5"
-                    tabindex="-1"
-                    aria-labelledby="exampleModalLabel"
-                    aria-hidden="true"
-                  >
-                    <div class="modal-dialog modal-xl">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button
-                            type="button"
-                            class="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                          ></button>
-                        </div>
-                        <div class="modal-body pb-0">
-                          <div
-                            class="modal-body-wrapper d-flex flex-column justify-content-center align-items-center"
-                          >
-                            <div class="col-lg-8">
-                              <div
-                                class="modal-body-title-content d-flex flex-column justify-content-center align-items-center"
-                              >
-                                <h2 class="fw-bold">LOCKED SAFE</h2>
-                                <div
-                                  class="portfolio-divider divider d-flex justify-content-center align-items-center"
-                                >
-                                  <i
-                                    class="fa-solid fa-star portfolio-icon icon"
-                                  ></i>
-                                </div>
-                              </div>
-
-                              <div class="modal-body-image rounded mb-5">
-                                <img
-                                  src="./images/safe.png"
-                                  alt=""
-                                  class="w-100 rounded"
-                                />
-                              </div>
-                              <p class="text-center">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Mollitia neque assumenda ipsam
-                                nihil, molestias magnam, recusandae quos quis
-                                inventore quisquam velit asperiores, vitae?
-                                Reprehenderit soluta, eos quod consequuntur
-                                itaque. Nam.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Modal Footer -->
-                        <div class="modal-footer pb-5">
-                          <button
-                            type="button"
-                            class="btn mx-auto text-light"
-                            data-bs-dismiss="modal"
-                          >
-                            <i class="fa-solid fa-xmark"></i> Close Window
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- MODAL END  -->
-              </div>
-            </div>
-            <div class="col mb-5">
-              <div class="portfolio-inner rounded">
-                <img
-                  src="./images/submarine.png"
-                  alt=""
-                  class="w-100 rounded"
-                />
-
-                <!-- MODAL START -->
-
-                <div class="modal-wrapper">
-                  <!-- Button trigger modal -->
-                  <button
-                    type="button"
-                    class="btn bg-transparent"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal-6"
-                  >
-                    <i class="fa-solid fa-plus"></i>
-                  </button>
-
-                  <!-- Modal -->
-                  <div
-                    class="modal fade"
-                    id="exampleModal-6"
-                    tabindex="-1"
-                    aria-labelledby="exampleModalLabel"
-                    aria-hidden="true"
-                  >
-                    <div class="modal-dialog modal-xl">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button
-                            type="button"
-                            class="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                          ></button>
-                        </div>
-                        <div class="modal-body pb-0">
-                          <div
-                            class="modal-body-wrapper d-flex flex-column justify-content-center align-items-center"
-                          >
-                            <div class="col-lg-8">
-                              <div
-                                class="modal-body-title-content d-flex flex-column justify-content-center align-items-center"
-                              >
-                                <h2 class="fw-bold">SUBMARINE</h2>
-                                <div
-                                  class="portfolio-divider divider d-flex justify-content-center align-items-center"
-                                >
-                                  <i
-                                    class="fa-solid fa-star portfolio-icon icon"
-                                  ></i>
-                                </div>
-                              </div>
-
-                              <div class="modal-body-image rounded mb-5">
-                                <img
-                                  src="./images/submarine.png"
-                                  alt=""
-                                  class="w-100 rounded"
-                                />
-                              </div>
-                              <p class="text-center">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Mollitia neque assumenda ipsam
-                                nihil, molestias magnam, recusandae quos quis
-                                inventore quisquam velit asperiores, vitae?
-                                Reprehenderit soluta, eos quod consequuntur
-                                itaque. Nam.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Modal Footer -->
-                        <div class="modal-footer pb-5">
-                          <button
-                            type="button"
-                            class="btn mx-auto text-light"
-                            data-bs-dismiss="modal"
-                          >
-                            <i class="fa-solid fa-xmark"></i> Close Window
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- MODAL END  -->
-              </div>
-            </div>
-          </div>
-        </div>
+  <!-- FOOTER BOTTOM START -->
+  <section class="footer-bottom py-4">
+    <div class="container">
+      <div class="footer-bottom-content text-center text-light">
+        <span>Copyright © Your Website 2022</span>
       </div>
-    </section>
-    <!-- PORTFOLIO END -->
+    </div>
+  </section>
+  <!-- FOOTER BOTTOM END -->
 
-    <!-- ABOUT START -->
-    <section class="about-section" id="about">
-      <div class="container">
-        <div
-          class="about-wrapper d-flex flex-column justify-content-center align-items-center"
-        >
-          <div class="col-lg-8">
-            <div
-              class="about-title-content d-flex flex-column justify-content-center align-items-center w-100"
-            >
-              <h2 class="fw-bold text-light">ABOUT</h2>
-              <div
-                class="about-divider divider d-flex justify-content-center align-items-center"
-              >
-                <i class="fa-solid fa-star about-icon icon text-light"></i>
-              </div>
-            </div>
-            <div class="row row-cols-md-2 row-cols-1">
-              <div class="col">
-                <div class="about-inner-content">
-                  <p class="text-light">
-                    Freelancer is a free bootstrap theme created by Start
-                    Bootstrap. The download includes the complete source files
-                    including HTML, CSS, and JavaScript as well as optional SASS
-                    stylesheets for easy customization.
-                  </p>
-                </div>
-              </div>
-              <div class="col">
-                <div class="about-inner-content">
-                  <p class="text-light">
-                    You can create your own custom avatar for the masthead,
-                    change the icon in the dividers, and add your email address
-                    to the contact form to make it fully functional!
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="download-button-wrapper d-flex justify-content-center align-items-center mt-4"
-            >
-              <a
-                class="btn btn-xl btn-outline-light rounded"
-                href="https://startbootstrap.com/theme/freelancer/"
-              >
-                <svg
-                  class="svg-inline--fa fa-download me-2"
-                  aria-hidden="true"
-                  focusable="false"
-                  data-prefix="fas"
-                  data-icon="download"
-                  role="img"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                  data-fa-i2svg=""
-                >
-                  <path
-                    fill="currentColor"
-                    d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z"
-                  ></path>
-                </svg>
-                Free Download!
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ABOUT END -->
+  <!-- FOOTER END -->
 
-    <!-- CONTACT START -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
 
-    <section class="contact-section" id="contact">
-      <div class="container">
-        <div
-          class="contact-wrapper d-flex flex-column justify-content-center align-items-center"
-        >
-          <div class="col-lg-8 col-12">
-            <div
-              class="contact-title-content d-flex flex-column justify-content-center align-items-center w-100"
-            >
-              <h2 class="fw-bold">CONTACT ME</h2>
-              <div
-                class="contact-divider divider d-flex justify-content-center align-items-center"
-              >
-                <i class="fa-solid fa-star contact-icon icon"></i>
-              </div>
-
-              <form class="form-wrapper col-12">
-                <div class="form-floating mb-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="floatingInput"
-                    placeholder="John Smith"
-                  />
-                  <label for="floatingInput">Full name</label>
-                </div>
-                <div class="form-floating mb-3">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="floatingInput"
-                    placeholder="name@example.com"
-                  />
-                  <label for="floatingInput">Email address</label>
-                </div>
-                <div class="form-floating mb-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="floatingInput"
-                    placeholder="0123456789"
-                  />
-                  <label for="floatingInput">Phone number</label>
-                </div>
-                <div class="form-floating mb-3">
-                  <textarea
-                    class="form-control"
-                    placeholder="Leave a comment here"
-                    id="floatingTextarea"
-                    style="height: 10rem"
-                  ></textarea>
-                  <label for="floatingTextarea">Message</label>
-                </div>
-
-                <button
-                  class="btn btn-primary btn-xl disabled"
-                  id="submitButton"
-                  type="submit"
-                >
-                  Send
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- CONTACT END -->
-
-    <!-- FOOTER START -->
-
-    <!-- FOOTER TOP START -->
-    <footer>
-      <div class="container">
-        <div class="row row-cols-lg-3 row-cols-1 text-center">
-          <div class="col mb-5 mb-lg-0">
-            <div class="footer-inner">
-              <h4 class="fw-bold mb-4">LOCATION</h4>
-              <p class="mb-0">2215 John Daniel Drive</p>
-              <p class="mb-0">Clark, MO 65243</p>
-            </div>
-          </div>
-          <div class="col mb-5 mb-lg-0">
-            <div class="footer-inner">
-              <h4 class="fw-bold mb-4">AROUND THE WEB</h4>
-              <ul
-                class="footer-social-list p-0 m-0 text-light d-flex justify-content-center"
-              >
-                <li class="border border-2 rounded-circle">
-                  <a href="#"
-                    ><i class="fa-brands fa-facebook-f social-icon"></i
-                  ></a>
-                </li>
-                <li class="border border-2 rounded-circle">
-                  <a href="#"
-                    ><i class="fa-brands fa-twitter social-icon"></i
-                  ></a>
-                </li>
-                <li class="border border-2 rounded-circle">
-                  <a href="#"
-                    ><i class="fa-brands fa-linkedin-in social-icon"></i
-                  ></a>
-                </li>
-                <li class="border border-2 rounded-circle">
-                  <a href="#"
-                    ><i class="fa-brands fa-dribbble social-icon"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col mb-5 mb-lg-0">
-            <div class="footer-inner">
-              <h4 class="fw-bold mb-4">ABOUT FREELANCER</h4>
-              <p class="mb-0">
-                Freelance is a free to use, MIT licensed Bootstrap theme created
-                by <a href="http://startbootstrap.com">Start Bootstrap</a>.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- FOOTER TOP END -->
-
-    <!-- FOOTER BOTTOM START -->
-    <section class="footer-bottom py-4">
-      <div class="container">
-        <div class="footer-bottom-content text-center text-light">
-          <span>Copyright © Your Website 2022</span>
-        </div>
-      </div>
-    </section>
-    <!-- FOOTER BOTTOM END -->
-
-    <!-- FOOTER END -->
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
